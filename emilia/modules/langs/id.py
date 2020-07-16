@@ -566,9 +566,9 @@ SLAP_TEMPLATES = (
     "{user1} menusuk {user2} dan berulang kali {hits} dia dengan {item}.",
     "{user1} {hits} {user2} dengan sebuah {item}.",
     "{user1} mengikat {user2} ke kursi dan {throws} sebuah {item}.",
-    "{user1} memberikan album Dreamcatcher secara Gratis untuk {user2}."
-    "{user1} sembako Sampah kepada {user2}."
-    "{user1} menyatakan cinta kepada {user2}."
+    "{user1} memberikan album Dreamcatcher secara Gratis untuk {user2}.",
+    "{user1} memberikan sembako Sampah kepada {user2}.",
+    "{user1} menyatakan cinta kepada {user2}.",
 )
 
 ITEMS = (
