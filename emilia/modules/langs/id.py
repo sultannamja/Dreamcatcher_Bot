@@ -4,8 +4,8 @@ __lang__ = "🇮🇩 Indonesia"
 id = {
 # main stuff
 	"start_text": """
-Hai {}, nama saya {}! Saya seorang manajer grup yang dikelola oleh [master saya ini](tg://user?id={}).
-Untuk mendapatkan info status dan update bot ini, anda dapat bergabung dengan channel kami [Ayra's Bot News](https://t.me/AyraBotNews)
+Hai {}, nama saya {}! Saya seorang BOT manajer grup yang dikelola oleh [master saya ini](tg://user?id={}).
+berbasis dari Bot [Emilia](https://t.me/EmiliaHikariBot).
 
 Ada masalah atau butuh bantuan lebih?
 Gabung grup [Emilia Official Support](https://t.me/EmiliaOfficial)!
@@ -16,7 +16,7 @@ Jika Anda menikmati menggunakan saya, dan/atau ingin membantu saya bertahan hidu
 mendanai/meningkatkan VPS saya!
 """,
 	"help_text": """
-Hai! Nama saya adalah *Emilia*.
+Hai! Nama saya adalah *DREAMCATCHER*.
 Saya adalah bot manajemen grup dengan beberapa kelebihan yang menyenangkan! Silahkan lihat berikut ini untuk beberapa ide dari \
 hal-hal yang bisa saya bantu.
 
@@ -44,9 +44,9 @@ Dia hanya orang biasa, jadi akan sangat membantu dia!
 Jika anda memang berminat untuk donate, silahkan kunjungi ayrahikari.github.io/donations.html, Terima kasih 😁""",
 	
 # Help modules
-	"language_help": """Tidak semua grup berbicara bahasa Indonesia; beberapa grup lebih suka Emilia menanggapi dalam bahasa mereka sendiri.
+	"language_help": """Tidak semua grup berbicara bahasa Indonesia; beberapa grup lebih suka DREAMCATHER menanggapi dalam bahasa mereka sendiri.
 
-Di sinilah terjemahan masuk; Anda dapat mengubah sebagian besar balasan Emilia menjadi bahasa pilihan Anda!
+Di sinilah terjemahan masuk; Anda dapat mengubah sebagian besar balasan DREAMCATHER menjadi bahasa pilihan Anda!
 
 Bahasa yang tersedia adalah:
 - 🇮🇩 Indonesia
@@ -549,7 +549,7 @@ RUN_STRINGS = (
     "Saya tidak peduli dengan anda... Jadi, lari lebih cepat!",
     "Anda tidak bisa MENANGANI kebenaran!",
     "Dulu, di galaksi yang sangat jauh... Seseorang pasti peduli dengan dia.",
-    "Hei, lihat mereka! Mereka berlari dari Emilia yang tak terelakkan ... Lucu sekali 😂",
+    "Hei, lihat mereka! Mereka berlari dari kimsultan yang tak terelakkan ... Lucu sekali 😂",
     "Han menembak lebih dulu. Begitu juga saya.",
     "Apa yang kamu kejar? kelinci putih?",
     "Sepertinya dokter akan mengatakan... LARI!",
