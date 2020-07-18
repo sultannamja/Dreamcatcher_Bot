@@ -1,3 +1,4 @@
+# Modified for emilia (C) kimsul
 # Copyright (C) 2020 Adek Maulana.
 # All rights reserved.
 #
@@ -10,7 +11,7 @@ import heroku3
 import aiohttp
 import math
 
-from userbot import (
+from emilia import (
     CMD_HELP,
     HEROKU_APP_NAME,
     HEROKU_API_KEY,
@@ -18,7 +19,7 @@ from userbot import (
     BOTLOG_CHATID
 )
 
-from emilia.events import register
+from emilia import dispatcher
 
 heroku_api = "https://api.heroku.com"
 if HEROKU_APP_NAME is not None and HEROKU_API_KEY is not None:
