@@ -558,10 +558,10 @@ RUN_STRINGS = (
 LIRIK_STRINGS = (
     "geureokedo weonhan neowa nae shigandeul Baby",
     "seureureuk seureureuk jamdeunseureureuk seureureuk kkume amudo moreuge deureogalkke Now oh now",
-    "Please I don'"'t want to scream "("Scream, scream, scream, scream")" Eodum soge peojyeo Scream",
-    "Garyeojin nunapi Piro muldeullyeojine Tell me why I don"'"t lie",
-    "Lullaby oneureun gaji ma I noraereul bulleojulge Achimi balgawado gyeote isseojweo "("everyday")" I jarieseo maeil gidaryeotjiman Naeildo geureol jashini naneun eomneun georyo",
-    "I"'"ll never leave you alone Neol jaba duryeogo aereul sseodo Eogimeopshi nuneul tteuneun neoreul Bonael subakke woo-ah",
+    "Please I don\'t want to scream \(Scream, scream, scream, scream\) Eodum soge peojyeo Scream",
+    "Garyeojin nunapi Piro muldeullyeojine Tell me why I don\'t lie",
+    "Lullaby oneureun gaji ma I noraereul bulleojulge Achimi balgawado gyeote isseojweo \(everyday\) I jarieseo maeil gidaryeotjiman Naeildo geureol jashini naneun eomneun georyo",
+    "I\'ll never leave you alone Neol jaba duryeogo aereul sseodo Eogimeopshi nuneul tteuneun neoreul Bonael subakke woo-ah",
 )
 
 SLAP_TEMPLATES = (
