@@ -165,7 +165,7 @@ def runs(update, context):
 @run_async
 @spamcheck
 def lirik(update, context):
-    send_message(update.effective_message, random.choice(tl(update.effective_message, "RUN_STRINGS")))
+    send_message(update.effective_message, random.choice(tl(update.effective_message, "LIRIK_STRINGS")))
 
 @run_async
 @spamcheck
