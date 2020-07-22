@@ -83,6 +83,15 @@ RUN_STRINGS = (
     "Sepertinya dokter akan mengatakan... LARI!",
 )
 
+LIRIK_STRINGS = (
+    "geureokedo weonhan neowa nae shigandeul Baby",
+    "seureureuk seureureuk jamdeunseureureuk seureureuk kkume amudo moreuge deureogalkke Now oh now",
+    "Please I don't want to scream (Scream, scream, scream, scream) Eodum soge peojyeo Scream",
+    "Garyeojin nunapi Piro muldeullyeojine Tell me why I don't lie",
+    "Lullaby oneureun gaji ma I noraereul bulleojulge Achimi balgawado gyeote isseojweo (everyday) I jarieseo maeil gidaryeotjiman Naeildo geureol jashini naneun eomneun georyo",
+    "I'll never leave you alone Neol jaba duryeogo aereul sseodo Eogimeopshi nuneul tteuneun neoreul Bonael subakke woo-ah",
+)
+
 SLAP_TEMPLATES = (
     "{user1} {hits} {user2} dengan {item}.",
     "{user1} {hits} {user2} di mukanya dengan {item}.",
@@ -152,6 +161,11 @@ GMAPS_TIME = "https://maps.googleapis.com/maps/api/timezone/json"
 @spamcheck
 def runs(update, context):
     send_message(update.effective_message, random.choice(tl(update.effective_message, "RUN_STRINGS")))
+    
+@run_async
+@spamcheck
+def lirik(update, context):
+    send_message(update.effective_message, random.choice(tl(update.effective_message, "LIRIK_STRINGS")))
 
 @run_async
 @spamcheck
@@ -442,6 +456,7 @@ TIME_HANDLER = DisableAbleCommandHandler("time", get_time_alt, pass_args=True)
 RUNS_HANDLER = DisableAbleCommandHandler(["runs", "lari"], runs)
 SLAP_HANDLER = DisableAbleCommandHandler("slap", slap, pass_args=True)
 INFO_HANDLER = DisableAbleCommandHandler("info", info, pass_args=True)
+LIRIK_HANDLER = DisableAbleCommandHandler(["lirik", "lyrics"], lirik)
 
 ECHO_HANDLER = CommandHandler("echo", echo, filters=Filters.user(OWNER_ID))
 MD_HELP_HANDLER = CommandHandler("markdownhelp", markdown_help, filters=Filters.private)
@@ -451,7 +466,7 @@ STATS_HANDLER = CommandHandler("stats", stats, filters=CustomFilters.sudo_filter
 dispatcher.add_handler(ID_HANDLER)
 dispatcher.add_handler(IP_HANDLER)
 dispatcher.add_handler(TIME_HANDLER)
-dispatcher.add_handler(RUNS_HANDLER)
+dispatcher.add_handler(LIRIK_HANDLER)
 dispatcher.add_handler(SLAP_HANDLER)
 dispatcher.add_handler(INFO_HANDLER)
 dispatcher.add_handler(ECHO_HANDLER)
