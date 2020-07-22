@@ -31,7 +31,7 @@ from emilia.modules.helper_funcs.alternate import send_message
 # - sudo apt-get install language-pack-id language-pack-id-base manpages
 # locale.setlocale(locale.LC_TIME, 'id_ID.UTF-8')
 
-RUN_STRINGS = (
+LIRIK_STRINGS = (
     "Kemana Anda pikir Anda akan pergi?",
     "Hah? apa? apakah mereka lolos?",
     "ZZzzZZzz... Hah? apa? oh... hanya mereka lagi, lupakan saja.",
@@ -83,7 +83,7 @@ RUN_STRINGS = (
     "Sepertinya dokter akan mengatakan... LARI!",
 )
 
-LIRIK_STRINGS = (
+RUN_STRINGS = (
     "geureokedo weonhan neowa nae shigandeul Baby",
     "seureureuk seureureuk jamdeunseureureuk seureureuk kkume amudo moreuge deureogalkke Now oh now",
     "Please I don\'t want to scream \(Scream, scream, scream, scream\) Eodum soge peojyeo Scream",
