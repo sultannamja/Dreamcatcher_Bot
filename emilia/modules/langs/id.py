@@ -556,10 +556,12 @@ RUN_STRINGS = (
 )
 
 LIRIK_STRINGS = (
-    "geureokedo weonhan neowa nae shigandeul Baby",
-    "seureureuk seureureuk jamdeunseureureuk seureureuk kkume amudo moreuge deureogalkke Now oh now",
-    "Please I don\'t want to scream \(Scream, scream, scream, scream\) Eodum soge peojyeo Scream",
-    "Garyeojin nunapi Piro muldeullyeojine Tell me why I don\'t lie",
+    "Anda tidak bisa MENANGANI kebenaran2!",
+    "Dulu, di2 galaksi yang sangat jauh... Seseorang pasti peduli dengan dia.",
+    "Hei, lihat mereka! 2Mereka berlari dari kimsultan yang tak terelakkan ... Lucu sekali 😂",
+    "Han menembak lebih d2ulu. Begitu juga saya.",
+    "Apa yang kamu kejar? 2kelinci putih?",
+    "Sepertinya dokter akan2 mengatakan... LARI!",
 )
 
 SLAP_TEMPLATES = (
