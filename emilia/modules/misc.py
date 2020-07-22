@@ -165,7 +165,7 @@ def runs(update, context):
 @run_async
 @spamcheck
 def lirik(update, context):
-    send_message(update.effective_message, random.choice(tl(update.effective_message, "LIRIK_STRINGS")))
+    send_message(update.effective_message, random.choice(tl(update.effective_message, "RUN_STRINGS")))
 
 @run_async
 @spamcheck
@@ -466,6 +466,7 @@ STATS_HANDLER = CommandHandler("stats", stats, filters=CustomFilters.sudo_filter
 dispatcher.add_handler(ID_HANDLER)
 dispatcher.add_handler(IP_HANDLER)
 dispatcher.add_handler(TIME_HANDLER)
+dispatcher.add_handler(RUNS_HANDLER)
 dispatcher.add_handler(LIRIK_HANDLER)
 dispatcher.add_handler(SLAP_HANDLER)
 dispatcher.add_handler(INFO_HANDLER)
