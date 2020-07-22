@@ -503,7 +503,7 @@ Catatan:
 
 
 
-RUN_STRINGS = (
+LIRIK_STRINGS = (
     "Kemana Anda pikir Anda akan pergi?",
     "Hah? apa? apakah mereka lolos?",
     "ZZzzZZzz... Hah? apa? oh... hanya mereka lagi, lupakan saja.",
@@ -555,7 +555,7 @@ RUN_STRINGS = (
     "Sepertinya dokter akan mengatakan... LARI!",
 )
 
-LIRIK_STRINGS = (
+RUN_STRINGS = (
     "Anda tidak bisa MENANGANI kebenaran2!",
     "Dulu, di2 galaksi yang sangat jauh... Seseorang pasti peduli dengan dia.",
     "Hei, lihat mereka! 2Mereka berlari dari kimsultan yang tak terelakkan ... Lucu sekali 😂",
