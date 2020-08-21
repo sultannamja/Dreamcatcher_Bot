@@ -556,9 +556,9 @@ RUN_STRINGS = (
 )
 
 LIRIK_STRINGS = (
-    "가려진 눈앞이\n피로 물들여지네\nTell me why I dont lie",
-    "가면 뒤의 trick 가소로운 freak 커진 증오가 낳은 무작위 속의 target 타오른 갈증 삼켜도 위선은 다 내 탓이라 해 내몰린 끝은 절벽 위에 후회만 남을 선택이 돼",
-    "가르치려 하는 바람과 날 무너뜨려 얻는 것을 말해 봐 그 모든 것은 hold back (Hold back) 뻔히 보이는데도 왜 그렇게 눈을 감아",
+    "가르치려 하는 바람과\n날 무너뜨려 얻는 것을 말해 봐\n그 모든 것은 hold back (Hold back)\n뻔히 보이는데도 왜 그렇게 눈을 감아",
+    "Ay, 선봉대에 선 바람과\n불을 지펴 나아가\n내 맘대로 그려가\n바랐던 꿈을 꿔 완벽한 나의 꿈을",
+    "진리를 붙잡고 맞서 싸워\n앞으로 나가야 해\nStarted war\n달이 차올라 달이 차올라 oh",
 )
 
 SLAP_TEMPLATES = (
