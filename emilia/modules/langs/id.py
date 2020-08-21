@@ -556,7 +556,7 @@ RUN_STRINGS = (
 )
 
 LIRIK_STRINGS = (
-    "가려진 눈앞이 피로 물들여지네 Tell me why I dont lie",
+    "가려진 눈앞이\n피로 물들여지네\nTell me why I dont lie",
     "가면 뒤의 trick 가소로운 freak 커진 증오가 낳은 무작위 속의 target 타오른 갈증 삼켜도 위선은 다 내 탓이라 해 내몰린 끝은 절벽 위에 후회만 남을 선택이 돼",
     "가르치려 하는 바람과 날 무너뜨려 얻는 것을 말해 봐 그 모든 것은 hold back (Hold back) 뻔히 보이는데도 왜 그렇게 눈을 감아",
 )
